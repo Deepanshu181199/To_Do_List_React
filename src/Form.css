@@ -1,0 +1,41 @@
+
+.form_div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0;
+    padding: 10px 0;
+}
+
+.todo_input{
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    /* margin: 10px; */
+    /* margin-right: 30px; */
+}
+
+.btn{
+    border: none;
+    font-size: 20px;
+    padding: 10px 16px;
+    margin: 0 15px;
+    font-weight: 700;
+    background: linear-gradient(90deg, #e45c26, #e7e008bc);
+    color: white;
+    
+}
+
+.filter_list{
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 15px;
+    color: orange;
+}
+
+.btn:hover{
+    background: white;
+    color: orange;
+}

@@ -1,0 +1,42 @@
+.list-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    border: 2px solid black;
+    width: 500px;
+}
+
+.list p {
+
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.btn1{
+    position: absolute;
+    font-size: 15px;
+    margin: 10px;
+    padding: 10px;
+    right: 10px;
+    background: orange;
+    border: none;
+    box-shadow: 2px 2px 2px 2px orangered;
+    border-radius: 3px;
+    color: white;
+}
+
+.btn1:hover{
+    background:white;
+    color: black;
+    box-shadow: none;
+}
